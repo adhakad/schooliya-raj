@@ -1,0 +1,72 @@
+@import'../../../../styles.css';
+@import'../admin-student-fees/admin-student-fees.component.css';
+.logo{
+    height: 75px;display: inline;
+ }
+ .school-name h3{
+    color:#2e2d6a !important;font-size: 18px !important;display: inline;margin-bottom: 0 !important;
+ }
+ .school-name p{
+    color: #2e2d6a !important;
+    display: block !important;margin-bottom:30px !important;font-size: 12px !important;
+ }
+ .address{
+    margin-top: 12px !important;
+    color: #2e2d6a;
+ }
+ .address p{
+    color: #2e2d6a !important;
+    display: block !important;margin-top: -15px !important;font-size: 12px !important;
+ }
+.table-container .tc-title{
+    text-align: center;padding-top:5px;margin-bottom: 15px;border: 1px solid #2e2d6a;border-radius: 5px;
+}
+.table-container .tc-title p{
+    color: #2e2d6a !important;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.table-container .tc-codes{
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.table-container .tc-codes p{
+    margin-top: -10px !important;
+}
+.text-bold{
+    font-weight:bold;
+}
+.table-container p{
+    color:#2e2d6a !important;
+    font-size: 12px !important;
+}
+.table-container .container p{
+    color:#2e2d6a !important;
+    font-size: 12px !important;
+    margin: 4.5px !important;
+}
+
+.file-input {
+    height: 50px;
+    color: #4e4caacd;
+    border: 1px solid #4e4caacd;
+    border-radius: 5px;
+  }
+.radio-btn-mobile {
+    display: inline;
+}
+
+.radio-btn-desktop {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .radio-btn-mobile {
+        display: none;
+    }
+
+    .radio-btn-desktop {
+        display: inline;
+    }
+}
